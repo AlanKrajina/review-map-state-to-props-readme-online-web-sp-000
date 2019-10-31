@@ -41,7 +41,7 @@ const mapStateToProps = (state) => {
   if (state.items || state.users){    // users dodan
   return { items: state.items,
     users: state.users}
-  } 
+  }
 }
 
 export default connect(mapStateToProps)(App);
